@@ -138,7 +138,7 @@
                     android:layout_marginRight="24dp"
                     android:layout_marginBottom="16dp"
                     android:background="#FF8C00"
-                    android:text="+2"
+                    android:text="@string/_2"
                     android:textStyle="bold" />
 
                 <Button
@@ -147,7 +147,7 @@
                     android:layout_marginRight="24dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Free Throw"
+                    android:text="@string/free_throw"
                     android:layout_marginTop="16dp"
                     android:background="#FF8C00"
                     android:layout_marginBottom="16dp"
@@ -172,7 +172,7 @@
             android:layout_marginLeft="30dp"
             android:background="#FF8C00"
             android:layout_marginBottom="16dp"
-            android:text="Reset" />
+            android:text="@string/reset" />
 
         <Button
             android:layout_width="wrap_content"
@@ -181,7 +181,7 @@
             android:layout_marginLeft="150dp"
             android:background="#FF8C00"
             android:layout_marginBottom="16dp"
-            android:text="Reset" />
+            android:text="@string/cricket" />
 
     </LinearLayout>
 
