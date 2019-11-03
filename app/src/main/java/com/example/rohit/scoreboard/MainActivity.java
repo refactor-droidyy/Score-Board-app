@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button three,two,one,three_b,two_b,one_c,reset;
+    private Button three,two,one,three_b,two_b,one_c,reset,cricket;
     int i=0;
     int j=0;
 
@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         two_b = findViewById(R.id.twob);
         one_c = findViewById(R.id.oneb);
         reset = findViewById(R.id.reset);
+        cricket = findViewById(R.id.cricket);
 
 
         three.setOnClickListener(new View.OnClickListener() {
@@ -74,6 +75,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // create methid for reset
+            }
+        });
+
+        cricket.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //
             }
         });
 
