@@ -1,13 +1,11 @@
 package com.example.rohit.scoreboard;
 
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.support.v7.app.AppCompatActivity;
 
-import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -74,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
         reset.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // create methid for reset
+                reset();
             }
         });
 
@@ -118,6 +116,15 @@ public class MainActivity extends AppCompatActivity {
         j+=1;
         displayForTeamB(j);
     }
+
+    private void reset(){
+        i=0;
+        j=0;
+        displayForTeamB(j);
+        displayForTeamA(i);
+    }
+
+
     private void displayForTeamA(int score) {
         TextView scoreView = (TextView) findViewById(R.id.team_a_score);
         scoreView.setText(String.valueOf(score));
