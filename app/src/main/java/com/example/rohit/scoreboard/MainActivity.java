@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void incrementThreeb(){
         j+=3;
-        displayForTeamA(j);
+        displayForTeamB(j);
     }
 
     private void incrementTwob(){
